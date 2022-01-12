@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "A graphQL project with typescript",
   "main": "src/index.js",
-  "type": "module",
   "scripts": {
     "build": "rimraf ./build && tsc",
     "start": "npm run build && node build/index.js",
